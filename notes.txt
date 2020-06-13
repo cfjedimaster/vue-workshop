@@ -1,0 +1,24 @@
+Title:
+Building Web Applications with Vue.js
+
+Description:
+This is an introductory course to the Vue.js progressive web framework. In this course
+I'll introduce Vue.js and give multiple *real world* examples that can be used in real
+web sites. I'll also give folks the WHY of Vue.js so you can better make the decision of
+when and where, or if, to use Vue.js. 
+
+Outline:
+
+Introduction (course prereqs, and why I use Vue)
+Using Vue (focused on core syntax)
+Exercises - Form Validation and Ajax Search
+Working with Components
+Exercise - Building an Image Placeholder Component
+Working with the Vue CLI and Creating Vue Applications
+Exercise - Creating a Simple Vue App
+Using Vue Routing
+Exercise - Building a Multi-Page Vue App
+State Management with Vuex
+Exercise - Using Vuex
+A Look at Vue 3
+Resources
