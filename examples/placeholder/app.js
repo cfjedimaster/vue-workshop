@@ -1,8 +1,12 @@
 Vue.component('image-placeholder', {
-	template:`<img :src="url">`,
+	template:`
+	<img :src="url" :width="width" :height="height" :title="text">
+`,
 	computed: {
 		url() {
-			return `https://via.placeholder.com/${this.width}x${this.height}`;
+			let url = `https://via.placeholder.com/${this.width}x${this.height}`;
+			if(this.text) url += `&text=${encodeURIComponent(this.text)}`;
+			return url;
 		}
 	},
 	props:{
@@ -11,7 +15,8 @@ Vue.component('image-placeholder', {
 		},
 		width:{
 			default: 250
-		}
+		},
+		text:''
 	}
 
 });
