@@ -22,3 +22,7 @@ State Management with Vuex
 Exercise - Using Vuex
 A Look at Vue 3
 Resources
+
+TODO: 
+Look at an exercise for Vuex
+Look at a slide/demo of filter replacement
